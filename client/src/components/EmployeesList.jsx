@@ -21,7 +21,7 @@ const EmployeesList = () => {
 
   return (
     <div className="employeesList">
-      <h1>employees</h1>
+      <h1>Employees</h1>
       {employees.map(user => (<Employee user={user} key={user.id} />))}
     </div>
   )

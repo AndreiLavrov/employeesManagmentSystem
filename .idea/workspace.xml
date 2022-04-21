@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e0357059-946e-44fe-b1c2-fc2c61cfebfc" name="Default Changelist" comment="feature/ change README.md">
+    <list default="true" id="e0357059-946e-44fe-b1c2-fc2c61cfebfc" name="Default Changelist" comment="bugfix/ fix styles">
+      <change afterPath="$PROJECT_DIR$/client/src/components/Loader.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/Employee.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Employee.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/Employee.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Employee.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/EmployeesList.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/EmployeesList.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/EmployeesList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/EmployeesList.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Loader.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Loader.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +87,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650559199467</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="bugfix/ fix styles">
+      <created>1650568077179</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1650568077179</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,6 +115,7 @@
     <MESSAGE value="feature/ first commit" />
     <MESSAGE value="feature/ add modal" />
     <MESSAGE value="feature/ change README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="feature/ change README.md" />
+    <MESSAGE value="bugfix/ fix styles" />
+    <option name="LAST_COMMIT_MESSAGE" value="bugfix/ fix styles" />
   </component>
 </project>

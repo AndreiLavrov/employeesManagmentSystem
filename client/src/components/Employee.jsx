@@ -25,6 +25,7 @@ const Employee = ({ user }) => {
         {
           employeesStatuses.map(status => (
             <div
+              key={status}
               className={`employeeStatus ${status === user.status ? 'active' : ''}`}
               onClick={changeEmployeeStatusHandler}
             >
