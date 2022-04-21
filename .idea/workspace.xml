@@ -1,17 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e0357059-946e-44fe-b1c2-fc2c61cfebfc" name="Default Changelist" comment="feature/ first commit">
-      <change afterPath="$PROJECT_DIR$/client/src/components/Modal.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/pages/employeePage.jsx" afterDir="false" />
+    <list default="true" id="e0357059-946e-44fe-b1c2-fc2c61cfebfc" name="Default Changelist" comment="feature/ add modal">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/api/employees.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/api/employees.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/Employee.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Employee.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/controllers/fileController.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controllers/fileController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +48,7 @@
       <recent name="D:\work\my_study_projects\employees_managment_system\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\work\my_study_projects\employees_managment_system" />
       <recent name="D:\work\my_study_projects\employees_managment_system\src" />
     </key>
   </component>
@@ -76,7 +69,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650550702304</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feature/ add modal">
+      <created>1650558208127</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1650558208128</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -95,6 +95,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feature/ first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="feature/ first commit" />
+    <MESSAGE value="feature/ add modal" />
+    <option name="LAST_COMMIT_MESSAGE" value="feature/ add modal" />
   </component>
 </project>

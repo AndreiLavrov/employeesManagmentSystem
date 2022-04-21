@@ -1,10 +1,17 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project contain "client" and "server" sides. Client side was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## How to start the app
+Firstly you should go to "client" folder of project directory and run there:
+### `npm start`
+then in new terminal you would need to go to the "server" folder of project directory and run there:
+### `npm run dev`
+for starting server.
 
 ## Available Scripts
 
-In the project directory, you can run:
+In the "client" folder of project directory, you can run:
 
 ### `npm start`
 
