@@ -21,16 +21,18 @@ const Employee = ({ user }) => {
   return (
     <div className="employeeRow">
       <span className="userName">{user.name}</span>
-      {
-        employeesStatuses.map(status => (
-          <div
-            className={`employeeStatus ${status === user.status ? 'active' : ''}`}
-            onClick={changeEmployeeStatusHandler}
-          >
-            {status}
-          </div>
-        ))
-      }
+      <div className="statusesWrapper">
+        {
+          employeesStatuses.map(status => (
+            <div
+              className={`employeeStatus ${status === user.status ? 'active' : ''}`}
+              onClick={changeEmployeeStatusHandler}
+            >
+              {status}
+            </div>
+          ))
+        }
+      </div>
     </div>
   )
 };
