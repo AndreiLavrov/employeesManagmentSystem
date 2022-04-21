@@ -64,10 +64,12 @@ class FileController {
       const employee = req.body;
       if (!employee) return res.status(404).json({ message: "Bad request" });
 
-      let formattedEmployees = employeesState.employees.push(employee);
-      employeesState.setEmployees(formattedEmployees);
+      employee.id = `${Date.now()}`;
+      employee.status = 'ADDED';
 
-      return res.json(formattedEmployees);
+      employeesState.employees.push(employee);
+
+      return res.json(employeesState.employees);
     } catch (e) {
       console.log(e);
       return res.status(500).json({ message: "Can't add employee" });

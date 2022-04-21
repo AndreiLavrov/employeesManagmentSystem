@@ -38,15 +38,13 @@ export const changeEmployeeType = (user) => {
   };
 };
 
-export const addEmployee = (user) => {
+export const addEmployee = (userName) => {
   return async (dispatch) => {
     try {
       const response = await axios.post(
         `${API_URL}/employees`,
         {
-          id: user.id,
-          name: user.name,
-          type: user.type,
+          name: userName,
         },
       );
       dispatch(setEmployees(response.data));
