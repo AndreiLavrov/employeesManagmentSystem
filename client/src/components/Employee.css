@@ -1,0 +1,53 @@
+.employeeRow {
+  display: flex;
+  margin: 3px 0;
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.5);
+}
+.userName {
+  display: flex;
+  padding: 5px 15px;
+  min-width: 100px;
+}
+.employeeStatus {
+  position: relative;
+  width: 180px;
+  height: 30px;
+  font-size: 1.2rem;
+  border: 1px solid gray;
+  text-transform: lowercase;
+}
+.employeeStatus:hover {
+  cursor: pointer;
+}
+.employeeStatus:not(:last-child)::after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 168px;
+  z-index: 6;
+  width: 23px;
+  height: 23px;
+  background-color: white;
+  transform: rotate(45deg);
+  border-radius: 3px;
+  top: 3px;
+  border-top: 1px solid gray;
+  border-right: 1px solid gray;
+}
+.employeeStatus.active {
+  background-color: dodgerblue;
+  text-transform: capitalize;
+}
+.employeeStatus.active:not(:last-child)::after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 168px;
+  z-index: 6;
+  width: 23px;
+  height: 23px;
+  background-color: dodgerblue;
+  transform: rotate(45deg);
+  border-radius: 3px;
+  top: 3px;
+}
